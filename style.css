@@ -222,6 +222,10 @@ body {
     width: 50%;
 }
 
+.min-blog img {
+    width: 100%;
+}
+
 .footer {
     min-height: 200px;
     background-color: #2e2a2a;
