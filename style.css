@@ -21,6 +21,14 @@ body {
     border-radius: 5px;
 }
 
+#btn {
+    color: #FF5959;
+}
+
+.btn_active {
+    border: 2px solid #FF5959;
+}
+
 .min_btn_style {
     font-size: 10px;
     color: #fff;
@@ -166,7 +174,7 @@ body {
     padding: 50px 180px;
 }
 
-.mail_section input {
+.mail_section form input {
     width: 250px;
     padding: 14px 10px;
     border: none;
