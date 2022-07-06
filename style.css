@@ -21,6 +21,16 @@ body {
     border-radius: 5px;
 }
 
+.min_btn_style {
+    font-size: 10px;
+    color: #fff;
+    text-decoration: none;
+    background-color: #FF5959;
+    padding: 6px 10px;
+    border-radius: 5px;
+    bottom: 0;
+}
+
 .section_header {
     width: 826px;
     margin: 0 auto;
@@ -220,6 +230,7 @@ body {
 
 .min-blog {
     width: 50%;
+    padding: 10px;
 }
 
 .min-blog img {
