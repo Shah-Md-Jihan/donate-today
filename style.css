@@ -22,6 +22,7 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     min-height: 669px;
+    margin-bottom: 100px;
 }
 
 .banner_content {
@@ -43,4 +44,53 @@ body {
     text-align: center;
     padding-top: 25px;
     padding-bottom: 60px;
+}
+
+.donate_amount {
+    width: 826px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.donate_amount h1 {
+    font-size: 30px;
+}
+
+.donate_amount ul {
+    list-style: none;
+    padding: 0;
+}
+
+.donate_amount ul li {
+    float: left;
+    margin-left: 16px;
+    margin-top: 100px;
+}
+
+.donate_amount ul li a {
+    padding: 30px 30px;
+    text-decoration: none;
+    color: #000000;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.donate_amount ul li a:hover {
+    border: 2px solid #FF5959;
+    color: #FF5959;
+}
+
+.donate_amount input {
+    margin-top: 50px;
+    width: 100%;
+    padding: 15px 0px;
+    border: none;
+    text-align: center;
+    box-shadow: 10px 10px 20px grey;
+    margin-bottom: 60px;
+}
+
+.donate_amount input:focus {
+    outline: none;
+
 }
