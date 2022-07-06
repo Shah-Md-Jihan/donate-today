@@ -46,6 +46,10 @@ body {
     padding-bottom: 60px;
 }
 
+.donate {
+    margin-bottom: 100px;
+}
+
 .donate_amount {
     width: 826px;
     margin: 0 auto;
@@ -92,5 +96,12 @@ body {
 
 .donate_amount input:focus {
     outline: none;
+
+}
+
+.plan_content {
+    width: 826px;
+    margin: 0 auto;
+    text-align: center;
 
 }
