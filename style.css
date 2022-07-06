@@ -125,6 +125,11 @@ body {
 
 }
 
+.plan_partition_child:hover {
+    background-color: #f4f4f4;
+    box-shadow: 10px 20px 30px grey;
+}
+
 .plan_partition_child h2 {
     padding-bottom: 20px;
 }
