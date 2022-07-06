@@ -7,6 +7,10 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 
+.flex-container {
+    display: flex;
+}
+
 .btn_style {
     font-size: 20px;
     color: #fff;
@@ -103,5 +107,14 @@ body {
     width: 826px;
     margin: 0 auto;
     text-align: center;
+
+}
+
+.mother_plan_partition {
+    padding: 0 7%;
+}
+
+.plan_partition_child {
+    width: 33%;
 
 }
