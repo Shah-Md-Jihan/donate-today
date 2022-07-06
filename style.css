@@ -21,6 +21,12 @@ body {
     border-radius: 5px;
 }
 
+.section_header {
+    width: 826px;
+    margin: 0 auto;
+    text-align: center;
+}
+
 .banner {
     background-image: url(images/banner-bg.jpg);
     background-repeat: no-repeat;
@@ -52,12 +58,6 @@ body {
 
 .donate {
     margin-bottom: 100px;
-}
-
-.donate_amount {
-    width: 826px;
-    margin: 0 auto;
-    text-align: center;
 }
 
 .donate_amount h1 {
@@ -103,11 +103,8 @@ body {
 
 }
 
-.plan_content {
-    width: 826px;
-    margin: 0 auto;
-    text-align: center;
-
+.donate_plan {
+    margin-bottom: 100px;
 }
 
 .mother_plan_partition {
@@ -139,4 +136,39 @@ body {
     font-size: 18px;
     color: #000000;
     padding-bottom: 15px;
+}
+
+.mail {
+    background-color: blanchedalmond;
+    min-height: 150px;
+    margin-top: 15px;
+}
+
+.mail_mother {
+    padding: 50px 180px;
+}
+
+.mail_section input {
+    width: 250px;
+    padding: 14px 10px;
+    border: none;
+    background-color: rgb(193 183 183 / 80%);
+    border-radius: 5px 0px 0px 5px;
+}
+
+.mail_section input:focus {
+    outline: none;
+}
+
+.mail_btn {
+    margin-top: 9px;
+}
+
+.mail_btn a {
+    background-color: #FF5959;
+    padding: 10px 25px;
+    border: none;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 0px 5px 5px 0px;
 }
