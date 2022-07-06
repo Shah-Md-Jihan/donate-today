@@ -233,6 +233,19 @@ body {
     padding: 10px;
 }
 
+.min-blog h2 a {
+    text-decoration: none;
+    color: #000000;
+}
+
+.min-blog h2 a:hover {
+    color: #FF5959;
+}
+
+.min-blog:hover {
+    box-shadow: 10px 20px 30px gray;
+}
+
 .min-blog img {
     width: 100%;
 }
